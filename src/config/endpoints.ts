@@ -1,0 +1,15 @@
+export const ENDPOINTS = {
+  register: "/api/auth/owner/register",
+  login: "/api/auth/owner/login",
+  forgotPassword: "/api/auth/owner/forgot-password",
+  resetPassword: "api/auth/owner/reset-password",
+  otpVerification: "/api/auth/owner/verify-otp",
+  resendOTP: "/api/auth/owner/reset-password",
+  getCountry: "/api/auth/owner/country",
+  getRestaurants: "/api/owner/restaurants",
+  createRestaurant: "/api/owner/restaurant",
+  subDomain: "/api/owner/sd",
+  deleteRestaurant: "/api/owner/restaurant",
+  getSubscriptionPlan: "/api/plan",
+  createMenu: "/api/menu",
+};
